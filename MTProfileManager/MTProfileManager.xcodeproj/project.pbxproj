@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		646D4B8F2089F2D500241797 /* MTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D4B8D2089F2D500241797 /* MTAlertView.m */; };
+		64FC95472088916200592A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC95462088916200592A27 /* AppDelegate.m */; };
+		64FC95492088916200592A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FC95482088916200592A27 /* Assets.xcassets */; };
+		64FC954C2088916200592A27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FC954A2088916200592A27 /* MainMenu.xib */; };
+		64FC954F2088916300592A27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC954E2088916300592A27 /* main.m */; };
+		64FC955B208891BB00592A27 /* MTProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC9559208891BB00592A27 /* MTProfileViewController.m */; };
+		64FC955C208891BB00592A27 /* MTProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FC955A208891BB00592A27 /* MTProfileViewController.xib */; };
+		64FC9561208894FF00592A27 /* MTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC9560208894FF00592A27 /* MTFileManager.m */; };
+		64FC95642088974D00592A27 /* MTProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC95632088974D00592A27 /* MTProfileManager.m */; };
+		64FC956720897FA300592A27 /* MTOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC956620897FA300592A27 /* MTOutlineView.m */; };
+		64FC956A2089846D00592A27 /* MTTreeNodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC95692089846D00592A27 /* MTTreeNodeModel.m */; };
+		64FC95712089B24A00592A27 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC95702089B24A00592A27 /* NSData+Base64.m */; };
+		64FC95742089C1BB00592A27 /* MTMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC95732089C1BB00592A27 /* MTMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		646D4B8D2089F2D500241797 /* MTAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAlertView.m; sourceTree = "<group>"; };
+		646D4B8E2089F2D500241797 /* MTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAlertView.h; sourceTree = "<group>"; };
+		64FC95422088916200592A27 /* MTProfileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTProfileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FC95452088916200592A27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64FC95462088916200592A27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64FC95482088916200592A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64FC954B2088916200592A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		64FC954D2088916300592A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FC954E2088916300592A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64FC95502088916300592A27 /* MTProfileManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MTProfileManager.entitlements; sourceTree = "<group>"; };
+		64FC9558208891BB00592A27 /* MTProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTProfileViewController.h; sourceTree = "<group>"; };
+		64FC9559208891BB00592A27 /* MTProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTProfileViewController.m; sourceTree = "<group>"; };
+		64FC955A208891BB00592A27 /* MTProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTProfileViewController.xib; sourceTree = "<group>"; };
+		64FC955F208894FF00592A27 /* MTFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFileManager.h; sourceTree = "<group>"; };
+		64FC9560208894FF00592A27 /* MTFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFileManager.m; sourceTree = "<group>"; };
+		64FC95622088974D00592A27 /* MTProfileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTProfileManager.h; sourceTree = "<group>"; };
+		64FC95632088974D00592A27 /* MTProfileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTProfileManager.m; sourceTree = "<group>"; };
+		64FC956520897FA300592A27 /* MTOutlineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTOutlineView.h; sourceTree = "<group>"; };
+		64FC956620897FA300592A27 /* MTOutlineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTOutlineView.m; sourceTree = "<group>"; };
+		64FC95682089846D00592A27 /* MTTreeNodeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTreeNodeModel.h; sourceTree = "<group>"; };
+		64FC95692089846D00592A27 /* MTTreeNodeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTreeNodeModel.m; sourceTree = "<group>"; };
+		64FC956F2089B24A00592A27 /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		64FC95702089B24A00592A27 /* NSData+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		64FC95722089C1BB00592A27 /* MTMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMenu.h; sourceTree = "<group>"; };
+		64FC95732089C1BB00592A27 /* MTMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FC953F2088916200592A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		646D4B8C2089F2D500241797 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				646D4B8D2089F2D500241797 /* MTAlertView.m */,
+				646D4B8E2089F2D500241797 /* MTAlertView.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		64FC95392088916200592A27 = {
+			isa = PBXGroup;
+			children = (
+				64FC95442088916200592A27 /* MTProfileManager */,
+				64FC95432088916200592A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64FC95432088916200592A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FC95422088916200592A27 /* MTProfileManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FC95442088916200592A27 /* MTProfileManager */ = {
+			isa = PBXGroup;
+			children = (
+				646D4B8C2089F2D500241797 /* Base */,
+				64FC956B2089B21500592A27 /* Category */,
+				64FC955D208891EA00592A27 /* Models */,
+				64FC955E208891EA00592A27 /* Views */,
+				64FC95572088919600592A27 /* Class */,
+				64FC95562088919500592A27 /* Utils */,
+				64FC95452088916200592A27 /* AppDelegate.h */,
+				64FC95462088916200592A27 /* AppDelegate.m */,
+				64FC95482088916200592A27 /* Assets.xcassets */,
+				64FC954A2088916200592A27 /* MainMenu.xib */,
+				64FC954D2088916300592A27 /* Info.plist */,
+				64FC954E2088916300592A27 /* main.m */,
+				64FC95502088916300592A27 /* MTProfileManager.entitlements */,
+			);
+			path = MTProfileManager;
+			sourceTree = "<group>";
+		};
+		64FC95562088919500592A27 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				64FC955F208894FF00592A27 /* MTFileManager.h */,
+				64FC9560208894FF00592A27 /* MTFileManager.m */,
+				64FC95622088974D00592A27 /* MTProfileManager.h */,
+				64FC95632088974D00592A27 /* MTProfileManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		64FC95572088919600592A27 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				64FC9558208891BB00592A27 /* MTProfileViewController.h */,
+				64FC9559208891BB00592A27 /* MTProfileViewController.m */,
+				64FC955A208891BB00592A27 /* MTProfileViewController.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		64FC955D208891EA00592A27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64FC95682089846D00592A27 /* MTTreeNodeModel.h */,
+				64FC95692089846D00592A27 /* MTTreeNodeModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64FC955E208891EA00592A27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64FC956520897FA300592A27 /* MTOutlineView.h */,
+				64FC956620897FA300592A27 /* MTOutlineView.m */,
+				64FC95722089C1BB00592A27 /* MTMenu.h */,
+				64FC95732089C1BB00592A27 /* MTMenu.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64FC956B2089B21500592A27 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				64FC956F2089B24A00592A27 /* NSData+Base64.h */,
+				64FC95702089B24A00592A27 /* NSData+Base64.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64FC95412088916200592A27 /* MTProfileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FC95532088916300592A27 /* Build configuration list for PBXNativeTarget "MTProfileManager" */;
+			buildPhases = (
+				64FC953E2088916200592A27 /* Sources */,
+				64FC953F2088916200592A27 /* Frameworks */,
+				64FC95402088916200592A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTProfileManager;
+			productName = MTProfileManager;
+			productReference = 64FC95422088916200592A27 /* MTProfileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64FC953A2088916200592A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lcd;
+				TargetAttributes = {
+					64FC95412088916200592A27 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 64FC953D2088916200592A27 /* Build configuration list for PBXProject "MTProfileManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64FC95392088916200592A27;
+			productRefGroup = 64FC95432088916200592A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64FC95412088916200592A27 /* MTProfileManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64FC95402088916200592A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FC95492088916200592A27 /* Assets.xcassets in Resources */,
+				64FC954C2088916200592A27 /* MainMenu.xib in Resources */,
+				64FC955C208891BB00592A27 /* MTProfileViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64FC953E2088916200592A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646D4B8F2089F2D500241797 /* MTAlertView.m in Sources */,
+				64FC956720897FA300592A27 /* MTOutlineView.m in Sources */,
+				64FC95712089B24A00592A27 /* NSData+Base64.m in Sources */,
+				64FC954F2088916300592A27 /* main.m in Sources */,
+				64FC955B208891BB00592A27 /* MTProfileViewController.m in Sources */,
+				64FC95742089C1BB00592A27 /* MTMenu.m in Sources */,
+				64FC95472088916200592A27 /* AppDelegate.m in Sources */,
+				64FC9561208894FF00592A27 /* MTFileManager.m in Sources */,
+				64FC95642088974D00592A27 /* MTProfileManager.m in Sources */,
+				64FC956A2089846D00592A27 /* MTTreeNodeModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64FC954A2088916200592A27 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FC954B2088916200592A27 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64FC95512088916300592A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64FC95522088916300592A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64FC95542088916300592A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MTProfileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MTProfileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64FC95552088916300592A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MTProfileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MTProfileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64FC953D2088916200592A27 /* Build configuration list for PBXProject "MTProfileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FC95512088916300592A27 /* Debug */,
+				64FC95522088916300592A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FC95532088916300592A27 /* Build configuration list for PBXNativeTarget "MTProfileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FC95542088916300592A27 /* Debug */,
+				64FC95552088916300592A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64FC953A2088916200592A27 /* Project object */;
+}
