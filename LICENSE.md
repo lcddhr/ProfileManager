@@ -1,9 +1,3 @@
-### ProfileManager
-
-管理 Mac 上的 `Provisioning Profiles`
-
-MIT License
-
 Copyright (c) 2018 liuchendi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
